@@ -125,17 +125,17 @@
 
 // }
 
-// bezash(4,"#")
-function get(){
-  var filter=[1,2,3,4,0,true,false,undefined,null];
-  for(var i = filter[0];i<=filter[8];i++){
-    if(!i==true){
-      filter.push(i);
-    }
+// // bezash(4,"#")
+// function get(){
+//   var filter=[1,2,3,4,0,true,false,undefined,null];
+//   for(var i = filter[0];i<=filter[8];i++){
+//     if(!i==true){
+//       filter.push(i);
+//     }
 
-  }
-  return filter
-}
-console.log(get());
+//   }
+//   return filter
+// }
+// console.log(get());
 
 
