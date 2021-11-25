@@ -137,5 +137,20 @@
 //   return filter
 // }
 // console.log(get());
+function filter(name){
+var arry = [1,2,3,4,5,4,3,2,1]
+ for(var i = 0; i<=arry.length;i++){
+     if(i!=i){
+         arry.push(i);
+     }else{
+         console.log(arry);
+     }
+     
+ }
+ return arry
+}
+// console.log(arry);
+
+
 
 
